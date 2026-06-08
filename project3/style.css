@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    margin-top:50px;
+    transition:0.5s;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.counter{
+    margin-top:30px;
+}
+
+#count{
+    font-size:30px;
+    margin:0 20px;
+}
+
+.dark-mode{
+    background:black;
+    color:white;
+}
